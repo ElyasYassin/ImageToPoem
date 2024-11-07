@@ -35,15 +35,19 @@ Use reinforcement learning to transform free verse poems into haikus that follow
 
 <h2> Setup and Timeline </h2>
 <h3> Week 1: Setup </h3>
+
 - Fine-tune the language model on poetry, specifically haikus, if needed. <br>
 - Integrate the syllable counter for syllabic accuracy. <br>
 - Develop the reward function and test initial criteria for semantic and structural constraints. <br>
 - Implement the Detector and Prompter modules. <br>
 <h3> Week 2: Optimization </h3> 
+
 - Refine and tune the reward function for improved performance. <br>
-Debug and optimize the Detector and Prompter to ensure smooth interaction with the syllable counter and language model. <br>
+- Debug and optimize the Detector and Prompter to ensure smooth interaction with the syllable counter and language model. <br>
 <h3> Week 3: Training </h3>
+
 - Train the RL agent on the haiku transformation task, using iterative revisions to achieve alignment with haiku constraints.<br>
 <h3> Week 4: Finalization </h3>
+
 - Conduct final evaluations and testing on diverse poems. <br>
 - Integrate additional elements, including Img2Poem and Poetry2Speech, to complete the pipeline. <br>
