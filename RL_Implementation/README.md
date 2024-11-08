@@ -2,7 +2,11 @@
 Transform free verse poems into haikus using reinforcement learning (RL). This project combines natural language generation with RL to edit free verse poetry iteratively until it conforms to the haiku form's constraints.
 
 <h2>Goal</h2>
-Use reinforcement learning to transform free verse poems into haikus that follow the traditional 5-7-5 syllable structure while preserving the original poem's themes and imagery.
+
+- Use reinforcement learning to transform free verse poems into haikus that follow the traditional 5-7-5 syllable structure while preserving the original poem's themes and imagery. <br>
+- Why?
+    - There are very few datasets of Image to Poems and there are none that are image to haiku
+    - We want to show a way to transform any image into a poem with a fixed deterministic style without the need of a specific dataset for it
 
 <h2>Project Overview</h2>
 <h3> Define Constraints </h3>
@@ -35,8 +39,8 @@ Use reinforcement learning to transform free verse poems into haikus that follow
 
 <h2> Setup and Timeline </h2>
 <h3> Week 1: Setup </h3>
-
-- Fine-tune the language model on poetry, specifically haikus, if needed. <br>
+- Create a dataset that pairs 200 free verses to 200 haikus using ChatGPT
+- Fine-tune the language model on haikus, if needed. <br>
 - Integrate the syllable counter for syllabic accuracy. <br>
 - Develop the reward function and test initial criteria for semantic and structural constraints. <br>
 - Implement the Detector and Prompter modules. <br>
