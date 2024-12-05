@@ -1,0 +1,10 @@
+transformers
+datasets
+stable-baselines3
+gymnasium
+syllapy
+nltk
+torch
+tensorboard
+textblob
+sentence_transformers
